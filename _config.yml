@@ -18,8 +18,8 @@ email: amolsidhu259@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This blog is to highlight my journey as a software developer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+url: "amol259.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: AMOLNATION
 github_username:  amol259
 
 # Build settings
