@@ -1,5 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-15T22:29:55-05:00</updated><id>http://localhost:4000/</id><title type="html">Amol Sidhu</title><subtitle>This blog is to highlight my journey as a software developer
-</subtitle><entry><title type="html">How to Approach Interview Questions!</title><link href="http://localhost:4000/interviews/2017/10/15/How-to-approach-interview-questions.html" rel="alternate" type="text/html" title="How to Approach Interview Questions!" /><published>2017-10-15T20:33:18-05:00</published><updated>2017-10-15T20:33:18-05:00</updated><id>http://localhost:4000/interviews/2017/10/15/How-to-approach-interview-questions</id><content type="html" xml:base="http://localhost:4000/interviews/2017/10/15/How-to-approach-interview-questions.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/09/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-09-19T20:33:18-05:00</published><updated>2017-09-19T20:33:18-05:00</updated><id>http://localhost:4000/jekyll/update/2017/09/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/09/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-15T22:56:29-05:00</updated><id>http://localhost:4000/</id><title type="html">Amol Sidhu</title><subtitle>This blog is to highlight my journey as a software developer
+</subtitle><entry><title type="html">How to Approach Interview Questions!</title><link href="http://localhost:4000/interviews/2017/10/15/How-to-approach-interview-questions.html" rel="alternate" type="text/html" title="How to Approach Interview Questions!" /><published>2017-10-15T20:33:18-05:00</published><updated>2017-10-15T20:33:18-05:00</updated><id>http://localhost:4000/interviews/2017/10/15/How-to-approach-interview-questions</id><content type="html" xml:base="http://localhost:4000/interviews/2017/10/15/How-to-approach-interview-questions.html">&lt;p&gt;Hello and welcome to my first post! In this post I will talk about how i approach technical interview questions. This post will inlcude a high level overview, I will follow up with several post highlighting the procedure i use to solve a variety of different problems. So lets dive into it!&lt;/p&gt;
+
+&lt;p&gt;Interviews are usually divided into 2 sections behavioral and technical.&lt;/p&gt;
+
+&lt;h1&gt; Behavioral  Questions&lt;/h1&gt;
+
+&lt;p&gt;Although most people usually shrug off the behavioral interview, it is still an important part of the interview. The good news is it’s the easiest part to prepare for and once you know how to crack it, you can reuse it for all future interviews. So what are interviewers looking for with these questions?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Metacognition about coding. Do you think about how to code well?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ownership/leadership. Do you see your work through to completion? Do you fix things that aren’t quite right, even if you don’t have to?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Communication. Would chatting with you about a technical problem be pleasant or painful?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now that you know what the interviewer is looking for, keep them in mind while you answer questions. To answer questions i recomend using the STAR method. 
+S: Situation
+T: Task 
+A: Approach
+R: Result&lt;/p&gt;
+
+&lt;p&gt;Look up a few examples of this online and format your answers to be in this manner. This gives a clear progression of the story to be told.
+Some examples of common questions are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;example of an interesting technical problem you solved&lt;/li&gt;
+  &lt;li&gt;example of an interpersonal conflict you overcame&lt;/li&gt;
+  &lt;li&gt;example of leadership or ownership&lt;/li&gt;
+  &lt;li&gt;story about what you should have done differently in a past project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt; Technical Questions &lt;/h1&gt;
+
+&lt;p&gt;There are 2 different type of questions you may receive.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Coding: The interviewer wants you to simply write code&lt;/li&gt;
+  &lt;li&gt;Talking: The interviewer want to go through a high level process. Examples of these are system design questions like build a twitter clone&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In this post I will discuss how to solve the first type of question, be on the lookout for a future post where i discuss how to solve the second type of question.&lt;/p&gt;
+
+&lt;p&gt;So what do you do when you’re given a technical question to solve. For this post we will use a simple question as an example and i will walk through the steps i go through to solve this.  So lets pretend i was given the following problem:&lt;/p&gt;
+&lt;h4&gt; Implement Fibbonacci sequence &lt;/h4&gt;</content><author><name></name></author><summary type="html">Hello and welcome to my first post! In this post I will talk about how i approach technical interview questions. This post will inlcude a high level overview, I will follow up with several post highlighting the procedure i use to solve a variety of different problems. So lets dive into it!</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/09/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-09-19T20:33:18-05:00</published><updated>2017-09-19T20:33:18-05:00</updated><id>http://localhost:4000/jekyll/update/2017/09/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/09/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
