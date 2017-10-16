@@ -125,10 +125,70 @@ Some examples of common questions are:</p>
   <li>Talking: The interviewer want to go through a high level process. Examples of these are system design questions like build a twitter clone</li>
 </ol>
 
+<ul>
+  <li>
+    <p>Communication is key in interviews. It is better to struggle with a question and communicate than to solve a question right and have poor communication skills.</p>
+  </li>
+  <li>
+    <p>Make it feel like you’re on a team. The interviewer wants to know what it feels like to work through a problem with you, so make the interview feel collaborative. Use “we” instead of “I”.</p>
+  </li>
+</ul>
+
 <p>In this post I will discuss how to solve the first type of question, be on the lookout for a future post where i discuss how to solve the second type of question.</p>
 
 <p>So what do you do when you’re given a technical question to solve. For this post we will use a simple question as an example and i will walk through the steps i go through to solve this.  So lets pretend i was given the following problem:</p>
 <h4> Implement Fibbonacci sequence </h4>
+
+<p>So regardless of how fast you want to start coding because you know the answer the first thing to do is to slow the eff down. You don’t win anything for speed and if you answer wrong you look like unqualified. After you take a breather think about what the problem is asking and start thinking outloud.</p>
+
+<p>So i would start by going “ it’s been a long time since I’ve seen a fibbonacci sequence. Is that the one where each value is the sum of the previous 2 values?”. By asking this question you verify you are correct, and if you are not you immediately know before you go down a rabbit hole.</p>
+
+<p>After I get confirmation, I then think of a high level design. The steps i go about are listed below:</p>
+
+<p>1) brainstorm an algorithm. draw out sample inputs and play around with them while talking and thinking out loud.</p>
+
+<p>2) once you have an algorithm that you and your interviewer both feel good about (not before then!) barf out your algorithm in code onto the whiteboard or IDE. focus on getting it all down first, and jot down notes next to the things you wanna go back and double-check later</p>
+
+<p>3) debug your code. look for off-by-one-errors. walk through it with a sample input.</p>
+
+<p>So essentially for this problem our algorithim is that we need to keep track of the previous 2 sums to get the current sum. Some smaple inputs that are important are Fib(0) and Fib(1).</p>
+
+<p>Fib(0)= 0</p>
+
+<p>Fib(1)= 1</p>
+
+<p>Fib(2)= 2</p>
+
+<p>Fib(3)= 3</p>
+
+<p>I can think of 2 ways to solve this problem:</p>
+<ol>
+  <li>Recusion</li>
+  <li>Iteratively</li>
+</ol>
+
+<p>So how do you communicate all these ideas:
+I would say</p>
+
+<p>“I see 2 possible ways we can solve this problem. The first way is via recursion and is fairly simple however at high inputs the efficency of the code is not as optimal as possible. The more efficent solution would be to solve this as with a iterative approach. This would be much more efficent than recursion at inputs as it has a time complexity of O(n). “</p>
+
+<p>Often time interviewers will want you to do both approaches, but if they’re in a time crunch this approach shows interviewers that you understand the problem enough to find the brue force solution but you’re also thinking about the efficency of your code. These are the small yet important things interviewers look for.</p>
+
+<p>So from here I would write test cases for the code first. Then i would write psuedocode, and from there convert it to real code. You want to get it all down first and not worry about small errors. Get the main idea and then after its there you can check for errors and efficency.</p>
+
+<p>So lets review what we learned:</p>
+<ol>
+  <li>Communication is key for both behavioral and technical questions</li>
+  <li>Slow Down, dont rush through the problem</li>
+  <li>Ask questions, make sure you completely understand the problem before you start solving it. This will save you time and help you think of solutions.</li>
+  <li>Brainstorm an algorithm, play with sample inputs</li>
+  <li>After you have an algorithim you and the interviewer agree with, write test cases and then code.</li>
+  <li>Write psuedocode and then convert. Keep the highlevel idea above small implementation details.</li>
+  <li>Fix small bugs in your code</li>
+  <li>Relax and realize it’s okay to fail</li>
+</ol>
+
+<p>Step 8 is something that isn’t talked about enough, sometimes you can practice all you can but still get a question wrong. Even if you get a question wrong you still have a chance of getting a job. Interviewers are looking for how you solve the problem, your thought process, if you test your code, code efficency. All these things factor into their decision. If you don’t get the job, realize the practice is worth it. Especially if you are just starting out, the more you interview the better you will be at it.</p>
 
 
   </div>
